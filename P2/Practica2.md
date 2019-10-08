@@ -1,4 +1,4 @@
-# Práctica 1: Presentación Supuesto Proyecto de Bases de Datos
+# Práctica 2: Instalación y prueba de Postgresql
 ## *Administración  y Diseño de Base de Datos*
 ### Akshay Chatani Chatani, Zuzanna Elzbieta Szalaty & Benjamin Paddags
 
