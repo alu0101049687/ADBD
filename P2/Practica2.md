@@ -19,15 +19,7 @@ sudo apt-get install postgresql
 
 
 #### Creación de un ejemplo de pruebas
-En la shell psql como el nuevo usuario “usuario”, se ejecutó:
-alter role miusuario with password 'mipassword';
-create table usuarios (
-nombre varchar(30) ,
-clave varchar(10)
-) ;
-Esto creará una tabla llamada usuarios que contiene un campo para el nombre y otro para la clave
-insert into usuarios (nombre, clave) values ('Isa', 'asdf’);
-insert into usuarios (nombre, clave) values (‘Pablo', 'jfx344');
-insert into usuarios (nombre, clave) values ('Ana', 'tru3fal');
-Se inserta dentro de la tabla usuarios los campos nombre y clave con los valores que queremos.
+En la shell psql como el nuevo usuario “usuario”, se ejecutaron los comandos que se muestran en la imagen.
+Esto creará una tabla llamada usuarios que contiene un campo para el nombre y otro para la clave.
+Y además se inserta dentro de la tabla usuarios los campos nombre y clave con los valores que queremos.
 ![Screenshot](capturas/2.png)
